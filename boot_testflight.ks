@@ -4,13 +4,16 @@ clearscreen.
 set ship:control:pilotmainthrottle to 0.
 
 
-wait until ag1.
+wait until ag1. // The program will wait until you press the Action Group 1 button. If you don't want this, please delete/comment this line.
 unlock all.
 wait 1.
 
-parameter orbAlt is 100.
-parameter orbDir is 90.
-parameter landReq is 1.
+// default launch parameters can be changed while while starting the program.
+// You can do it by typing "run boot_testflight(250,90,1)."
+
+parameter orbAlt is 100. // Default target altitude
+parameter orbDir is 90.  // Default launch direction (landing only works on launching to 90 degrees)
+parameter landReq is 1.  // Landing site
 
 // requiring libraries
 
