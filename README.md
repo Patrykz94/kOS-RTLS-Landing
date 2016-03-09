@@ -1,6 +1,6 @@
 # kOS-RTLS-Landing
 
-A kOS program that can precisely land a booster, SpaceX style.
+A kOS program that can precisely land a booster, SpaceX style. This is a WIP version and still needs quite a lot of work.
 
 I recommend downloading this craft file: https://kerbalx.com/Patrykz94/Falcon-9
 
